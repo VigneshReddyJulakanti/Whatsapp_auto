@@ -16,7 +16,7 @@ driver.get("https://web.whatsapp.com/")
 driver.maximize_window()
 driver.implicitly_wait(200)
 driver.find_element_by_xpath("//*[@id='pane-side']/div[1]/div/div/div[9]/div/div/div[2]/div[1]/div[1]/span").click()   #change the Xpath
-driver.find_element_by_xpath("//*[@id='main']/footer/div[1]/div[2]/div/div[2]").click()
+driver.find_element_by_xpath("//*[@id='main']/footer/div[1]/div[2]/div/div[2]").click()   #Change the path
 for i in range(100):
     # keyboard.write(f"{i}\n")
     keyboard.write("{0}.Subscribe timepass coders for more such stuff\n".format(i))
